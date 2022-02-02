@@ -1,3 +1,4 @@
+local UiLib = tostring(math.random(100000,200000))..tostring(math.random(100000,200000))..tostring(math.random(100000,200000))
 for i,v in pairs(game.CoreGui:GetChildren()) do
 	if v.Name == "UiLib" then
 		v:Destroy()
